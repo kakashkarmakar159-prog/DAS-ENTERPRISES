@@ -1,0 +1,260 @@
+{
+  "products": [
+    {
+      "id": "P001",
+      "name": "Gold Plated Necklace",
+      "category": "Necklace",
+      "price": 1099,
+      "oldPrice": 1999,
+      "discount": 45,
+      "stock": 15,
+      "sku": "DN-001",
+      "material": "Gold Plated",
+      "purity": "18K Finish",
+      "weight": "18g",
+      "size": "Free Size",
+      "description": "Elegant statement necklace for festive and wedding occasions.",
+      "image": "/assets/jewellery/gold-necklace-01.jpg",
+      "active": true,
+      "featured": true,
+      "rating": 4.8
+    },
+    {
+      "id": "P002",
+      "name": "Diamond Ring",
+      "category": "Ring",
+      "price": 1099,
+      "oldPrice": 1499,
+      "discount": 27,
+      "stock": 9,
+      "sku": "DR-002",
+      "material": "Silver & CZ",
+      "purity": "925",
+      "weight": "5g",
+      "size": "Adjustable",
+      "description": "Minimal sparkling ring with a premium finish.",
+      "image": "/assets/jewellery/gold-ring-01.jpg",
+      "active": true,
+      "featured": true,
+      "rating": 4.7
+    },
+    {
+      "id": "P003",
+      "name": "Gold Earrings",
+      "category": "Earrings",
+      "price": 799,
+      "oldPrice": 1299,
+      "discount": 38,
+      "stock": 18,
+      "sku": "DE-003",
+      "material": "Gold Plated",
+      "purity": "18K Finish",
+      "weight": "7g",
+      "size": "Medium",
+      "description": "Lightweight earrings designed for everyday elegance.",
+      "image": "/assets/jewellery/earrings-01.jpg",
+      "active": true,
+      "featured": true,
+      "rating": 4.6
+    },
+    {
+      "id": "P004",
+      "name": "Silver Anklet",
+      "category": "Anklet",
+      "price": 449,
+      "oldPrice": 699,
+      "discount": 36,
+      "stock": 25,
+      "sku": "DA-004",
+      "material": "Silver Tone",
+      "purity": "925",
+      "weight": "22g",
+      "size": "Adjustable",
+      "description": "Classic anklet with a delicate pattern.",
+      "image": "/assets/jewellery/anklet-01.jpg",
+      "active": true,
+      "featured": false,
+      "rating": 4.5
+    },
+    {
+      "id": "P005",
+      "name": "Gold Bangles Set",
+      "category": "Bangles",
+      "price": 1299,
+      "oldPrice": 1799,
+      "discount": 28,
+      "stock": 12,
+      "sku": "DB-005",
+      "material": "Gold Plated",
+      "purity": "18K Finish",
+      "weight": "30g",
+      "size": "2.4",
+      "description": "A festive bangle set with a rich golden finish.",
+      "image": "/assets/jewellery/bangles-01.jpg",
+      "active": true,
+      "featured": true,
+      "rating": 4.8
+    },
+    {
+      "id": "P006",
+      "name": "Classic Bracelet",
+      "category": "Bracelet",
+      "price": 999,
+      "oldPrice": 1399,
+      "discount": 29,
+      "stock": 14,
+      "sku": "DBR-006",
+      "material": "Gold Plated",
+      "purity": "18K Finish",
+      "weight": "12g",
+      "size": "Adjustable",
+      "description": "Elegant bracelet for modern styling.",
+      "image": "/assets/jewellery/bracelet-01.jpg",
+      "active": true,
+      "featured": false,
+      "rating": 4.4
+    },
+    {
+      "id": "P007",
+      "name": "Mangalsutra Classic",
+      "category": "Mangalsutra",
+      "price": 1499,
+      "oldPrice": 2199,
+      "discount": 32,
+      "stock": 8,
+      "sku": "DM-007",
+      "material": "Gold Plated",
+      "purity": "18K Finish",
+      "weight": "20g",
+      "size": "18 inch",
+      "description": "Traditional-inspired mangalsutra with a refined finish.",
+      "image": "/assets/jewellery/mangalsutra-01.jpg",
+      "active": true,
+      "featured": true,
+      "rating": 4.9
+    },
+    {
+      "id": "P008",
+      "name": "Premium Gift Set",
+      "category": "Gift",
+      "price": 1199,
+      "oldPrice": 1699,
+      "discount": 29,
+      "stock": 10,
+      "sku": "DG-008",
+      "material": "Gold Plated",
+      "purity": "18K Finish",
+      "weight": "24g",
+      "size": "Free Size",
+      "description": "A curated jewellery gift set for special moments.",
+      "image": "/assets/jewellery/gift-set-01.jpg",
+      "active": true,
+      "featured": false,
+      "rating": 4.6
+    }
+  ],
+  "orders": [
+    {
+      "id": "DU-10025",
+      "customer": "Rahul S.",
+      "mobile": "9999999999",
+      "items": [
+        {
+          "productId": "P001",
+          "name": "Gold Plated Necklace",
+          "qty": 1,
+          "price": 1099,
+          "image": "/assets/jewellery/gold-necklace-01.jpg"
+        }
+      ],
+      "amount": 1299,
+      "status": "Delivered",
+      "createdAt": "2026-09-10T10:24:00+05:30",
+      "address": "Mumbai, Maharashtra"
+    },
+    {
+      "id": "DU-10026",
+      "customer": "Priya Das",
+      "mobile": "9888888888",
+      "items": [
+        {
+          "productId": "P002",
+          "name": "Diamond Ring",
+          "qty": 1,
+          "price": 1099,
+          "image": "/assets/jewellery/gold-ring-01.jpg"
+        }
+      ],
+      "amount": 1099,
+      "status": "Shipped",
+      "createdAt": "2026-09-12T09:10:00+05:30",
+      "address": "Kolkata, West Bengal"
+    }
+  ],
+  "users": [],
+  "coupons": [
+    {
+      "code": "WELCOME10",
+      "type": "percent",
+      "value": 10,
+      "minPurchase": 500,
+      "active": true
+    },
+    {
+      "code": "FESTIVE200",
+      "type": "fixed",
+      "value": 200,
+      "minPurchase": 1500,
+      "active": true
+    }
+  ],
+  "banners": [
+    {
+      "id": "B001",
+      "title": "Premium Jewellery",
+      "image": "/assets/banners/banner-01.jpg",
+      "active": true
+    },
+    {
+      "id": "B002",
+      "title": "Gold Collection",
+      "image": "/assets/banners/banner-02.jpg",
+      "active": true
+    },
+    {
+      "id": "B003",
+      "title": "Festival Offers",
+      "image": "/assets/banners/banner-03.jpg",
+      "active": true
+    }
+  ],
+  "reviews": [
+    {
+      "id": "R001",
+      "customer": "Rahul S.",
+      "product": "Gold Plated Necklace",
+      "rating": 5,
+      "review": "Beautiful finish and good packaging.",
+      "date": "2026-09-10",
+      "status": "Approved"
+    },
+    {
+      "id": "R002",
+      "customer": "Priya Das",
+      "product": "Diamond Ring",
+      "rating": 4,
+      "review": "Looks elegant and arrived quickly.",
+      "date": "2026-09-12",
+      "status": "Approved"
+    }
+  ],
+  "settings": {
+    "websiteName": "DAS ENTERPRISES",
+    "contactNumber": "+91 90000 00000",
+    "email": "support@dasenterprises.example",
+    "address": "India",
+    "shippingCharge": 100,
+    "returnPolicy": "7 Days Return",
+    "logo": "/assets/logo/das-logo.jpg"
+  }
+}
