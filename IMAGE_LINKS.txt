@@ -1,0 +1,23 @@
+DAS ENTERPRISES - IMAGE LINKS
+
+These are relative GitHub Pages paths. They are used by the website so the site works under /DAS-ENTERPRISES/ without root-path 404 errors.
+
+Logo:
+./assets/logo/das-logo.jpg
+
+Jewellery photos:
+./assets/products/product-01.jpg
+./assets/products/product-02.jpg
+./assets/products/product-03.jpg
+./assets/products/product-04.jpg
+./assets/products/product-05.jpg
+
+If the repository remains:
+https://kakashkarmakar159-prog.github.io/DAS-ENTERPRISES/
+then the corresponding public links are:
+https://kakashkarmakar159-prog.github.io/DAS-ENTERPRISES/assets/logo/das-logo.jpg
+https://kakashkarmakar159-prog.github.io/DAS-ENTERPRISES/assets/products/product-01.jpg
+https://kakashkarmakar159-prog.github.io/DAS-ENTERPRISES/assets/products/product-02.jpg
+https://kakashkarmakar159-prog.github.io/DAS-ENTERPRISES/assets/products/product-03.jpg
+https://kakashkarmakar159-prog.github.io/DAS-ENTERPRISES/assets/products/product-04.jpg
+https://kakashkarmakar159-prog.github.io/DAS-ENTERPRISES/assets/products/product-05.jpg
