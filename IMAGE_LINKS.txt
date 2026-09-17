@@ -1,18 +1,9 @@
-DAS ENTERPRISES - LOCAL IMAGE LINKS
+DAS ENTERPRISES - Image URL Mapping
 
-All uploaded images are stored INSIDE this website folder so GitHub Pages can serve them without external hosting.
+Logo: https://i.ibb.co/LhR9HTTX/das-logo.jpg
+Ring: https://i.ibb.co/YB3945mL/image-364f5a8.jpg
+Earrings: https://i.ibb.co/Txh5DGGb/image-77b0d76d.jpg
+Necklace: https://i.ibb.co/PZPYr6WD/image-c9217abf.jpg
+Bangle: https://i.ibb.co/PZPYr6WD/image-c9217abf.jpg
 
-LOGO
-./assets/logo/das-enterprises-logo.jpg
-
-USER JEWELLERY IMAGES
-./assets/products/das-anklet-01.jpg
-./assets/products/das-rings-01.jpg
-./assets/products/das-earrings-01.jpg
-./assets/products/das-necklace-01.jpg
-./assets/products/das-bangle-01.jpg
-
-GitHub Pages URL pattern:
-https://kakashkarmakar159-prog.github.io/DAS-ENTERPRISES/assets/products/das-rings-01.jpg
-
-Important: these are relative paths in the site code. They will work under the repository project path /DAS-ENTERPRISES/.
+These are direct ImgBB image URLs, suitable for HTML img src.
