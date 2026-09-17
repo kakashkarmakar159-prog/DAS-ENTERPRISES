@@ -1,37 +1,21 @@
-# DAS ENTERPRISES — GitHub Pages Package
+# DAS ENTERPRISES — GitHub Pages Full Static Build
 
-This folder is a **GitHub Pages-compatible static build** of the DAS ENTERPRISES jewellery site.
+## What this build contains
+- Customer home, categories, product details, cart, checkout, success, tracking, orders, wishlist and account.
+- Admin dashboard, products CRUD, orders/status, customers, offers, banners, reviews, reports and settings.
+- Customer/Admin share the same browser `localStorage` state, so an order placed on the customer side appears in Admin → Orders and an Admin status change appears in Customer → Track Order.
+- All CSS/JS/image URLs are relative so the project works under a GitHub Pages project URL such as `/DAS-ENTERPRISES/`.
+- No admin password is embedded in frontend code. For a public production admin, connect Supabase Auth + RLS.
 
-## What is fixed
-- All CSS/JS/image URLs are relative (`./...`), so the site works from a repository URL such as `/DAS-ENTERPRISES/`.
-- Customer side and Admin UI use the same browser `localStorage` database (`das_db_v2`) for a working demo.
-- Customer orders created at Checkout appear immediately in **Admin → Orders** in the same browser.
-- Admin order status changes are reflected in **Customer → Track Order** in the same browser.
-- Product edits, stock changes, coupons and banners update the customer side in the same browser.
-- All included JPG assets are copied into `assets/` and referenced with relative paths.
+## GitHub Pages deployment
+1. Extract this ZIP.
+2. Upload the CONTENTS of this folder to the ROOT of the `DAS-ENTERPRISES` repository.
+3. Confirm `index.html` is directly in the repository root.
+4. GitHub → Settings → Pages → Deploy from a branch → `main` → `/ (root)` → Save.
+5. Open `https://<username>.github.io/DAS-ENTERPRISES/`.
+6. Admin UI: `https://<username>.github.io/DAS-ENTERPRISES/admin/`
 
-## GitHub Pages upload
-Upload the **contents of this `github-pages` folder** to the repository root (or deploy this folder as the Pages source). Do not add an extra `github-pages` folder level unless your Pages configuration is set for it.
+## Important limitation
+GitHub Pages is static hosting. The browser-local database is only a working demo and is not shared between different customers/devices. For real e-commerce data, replace the localStorage adapter with Supabase Database + Auth + Storage + Row Level Security.
 
-After publishing, open:
-- Customer: `https://YOUR-USERNAME.github.io/DAS-ENTERPRISES/`
-- Admin: `https://YOUR-USERNAME.github.io/DAS-ENTERPRISES/admin/`
-
-## Admin demo login
-The login verifier stores SHA-256 hashes rather than the password in plaintext. However, **GitHub Pages cannot provide secure server-side authentication**. The Admin login in this static package is therefore only a demo gate and is not suitable for production security.
-
-For production, connect the project to **Supabase Auth + PostgreSQL + Row Level Security** and remove the client-side demo credential verifier.
-
-## Important: static hosting limitation
-GitHub Pages does not run Node/Express. Therefore the old `/api/...` backend cannot run on GitHub Pages. This package replaces those API calls with a browser-local demo data store so the UI can be tested end-to-end.
-
-For a real store where customers on different devices share products/orders, use Supabase as the shared database/auth/storage layer (and Edge Functions/server-side code for privileged operations).
-
-## Reset demo data
-Open browser DevTools → Application/Storage → Local Storage and remove:
-- `das_db_v2`
-- `das_cart`
-- `das_wish`
-- `das_theme`
-
-Then reload.
+Never put a Supabase service-role/secret key in this repository.

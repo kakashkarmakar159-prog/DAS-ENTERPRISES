@@ -1,6 +1,9 @@
-DAS ENTERPRISES PROJECT MAP
-Customer: public/index.html, public/css/style.css, public/js/app.js
-Admin: admin/login.html, admin/dashboard.html, admin/admin.css, admin/admin.js
-Backend: server.js
-Database: data/db.json
-Assets: public/assets/banners, public/assets/jewellery, public/assets/categories, public/assets/logo
+Customer: public/index.html
+Customer CSS: public/css/style.css
+Customer JS: public/js/app.js
+Customer assets: public/assets/
+Admin: admin/index.html, admin/admin.css, admin/admin.js
+Data model used by static demo: products, banners, coupons, orders, customers, reviews, settings
+Storage key: das-enterprises-state-v2
+Cart key: das-cart
+Wishlist key: das-wish
